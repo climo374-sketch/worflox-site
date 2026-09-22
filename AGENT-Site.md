@@ -9,8 +9,9 @@ production (voir [[../brain/connections|brain/connections.md]] § API ou connect
 - **Dépôt** : `climo374-sketch/worflox-site`, **public** (GitHub Pages l'exige), branche
   `main`, servi depuis la racine. Un `git push` suffit à mettre à jour le site, en une
   minute environ.
-- **Déclaré chez Google** : projet `n8n-apps-494714`, page Branding, avec le domaine
-  autorisé `github.io`.
+- **Déclaré chez Google** : projet **`worflox`** (celui du hub, séparé de `n8n-apps-494714`
+  qui reste à n8n), page Branding, avec le domaine autorisé
+  `climo374-sketch.github.io`.
 
 ## Règles
 
