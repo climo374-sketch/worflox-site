@@ -1,0 +1,39 @@
+/* Neutres apple.com, bleu réservé à l'interactif — même direction que Worflox OS. */
+:root{
+  --bg:#ffffff; --surface:#f5f5f7;
+  --ink:#1d1d1f; --ink-2:#424245; --ink-3:#6e6e73;
+  --hair:#d2d2d7; --accent:#0066cc;
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --bg:#000000; --surface:#1c1c1e;
+    --ink:#f5f5f7; --ink-2:#c7c7cc; --ink-3:#98989d;
+    --hair:#38383a; --accent:#2997ff;
+  }
+}
+*{box-sizing:border-box}
+body{
+  margin:0; background:var(--bg); color:var(--ink);
+  font:17px/1.55 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto,
+       Helvetica, Arial, sans-serif;
+  letter-spacing:-.012em; -webkit-font-smoothing:antialiased;
+}
+main{max-width:44rem; margin:0 auto; padding:64px 20px 96px}
+header{padding-bottom:28px; border-bottom:1px solid var(--hair); margin-bottom:8px}
+.eyebrow{margin:0 0 10px; font-size:13px; font-weight:600; letter-spacing:.02em;
+  text-transform:uppercase; color:var(--ink-3)}
+.eyebrow a{color:inherit}
+h1{margin:0 0 14px; font-size:40px; line-height:1.1; font-weight:600; letter-spacing:-.024em;
+  text-wrap:balance}
+h2{margin:36px 0 10px; font-size:21px; font-weight:600; letter-spacing:-.018em}
+.lede{margin:0; font-size:19px; color:var(--ink-2)}
+p{margin:0 0 14px; color:var(--ink-2)}
+ul{margin:0 0 14px; padding-left:22px; color:var(--ink-2)}
+li{margin-bottom:7px}
+a{color:var(--accent); text-decoration:none}
+a:hover{text-decoration:underline}
+a:focus-visible{outline:2px solid var(--accent); outline-offset:3px; border-radius:4px}
+@media (max-width:480px){
+  main{padding:40px 20px 72px}
+  h1{font-size:31px}
+}
